@@ -13,7 +13,6 @@ namespace EFTableRelationships
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<Contact> ContactInfos { get; set; }
-        public DbSet<StudentSubject> StudentSubjects { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

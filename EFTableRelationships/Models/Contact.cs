@@ -11,6 +11,5 @@ namespace EFTableRelationships.Models
         public string Email { get; set; }
         public string Phone { get; set; }
 
-        public int TeacherId { get; set; }
     }
 }
